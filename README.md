@@ -3,9 +3,13 @@ Descrição do Projeto
 Este projeto consiste em uma aplicação web simples de Lista de Tarefas, desenvolvida utilizando HTML, CSS e JavaScript puro. A aplicação implementa um sistema básico de CRUD (Create + Read), permitindo que o usuário adicione tarefas e visualize a lista dinamicamente na tela. O desenvolvimento foi realizado com foco em organização correta de pastas e arquivos, uso de JavaScript essencial, manipulação básica do DOM, uso de eventos e validação simples utilizando trim().
 
 Tecnologias Utilizadas
+
 HTML5
+
 CSS
+
 JavaScript (Vanilla JS)
+
 
 Estrutura do Projeto
 lista-tarefas/
@@ -13,7 +17,9 @@ lista-tarefas/
 ├── css/style.css
 └── js/script.js
 
-Funcionalidades Implementadas
+
+Funcionalidades Implementadas:
+
 Adicionar novas tarefas (Create)
 Exibir tarefas dinamicamente na tela (Read)
 Armazenamento das tarefas em um array JavaScript
@@ -24,10 +30,14 @@ Validação para impedir tarefas vazias usando trim()
 Exibição de mensagem de erro diretamente no DOM
 Atualização automática da interface após adicionar tarefa
 
-Próximas Implementações
+
+Próximas Implementações:
+
 Atualização de tarefas
 Exclusão de tarefas
 Implementação completa do CRUD
 
+
 Autor:
+
 Tiago Henrique Barbosa
