@@ -1,0 +1,29 @@
+
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Lista de Tarefas</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<main class="container">
+			<h1>Lista de Tarefas</h1>
+
+			<!-- Formulário de nova tarefa -->
+			<form id="form-tarefa" class="form">
+				<input type="text" id="input-tarefa" placeholder="Digite sua tarefa" aria-label="Tarefa" />
+				<button type="submit" class="btn">Adicionar</button>
+			</form>
+
+			<!-- Elemento para mensagens de erro (não usar alert) -->
+			<div id="mensagem-erro" role="status" aria-live="polite" class="erro"></div>
+
+			<!-- Lista de tarefas -->
+			<ul id="lista-tarefas" class="lista"></ul>
+		</main>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
