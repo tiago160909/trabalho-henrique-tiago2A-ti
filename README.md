@@ -1,10 +1,10 @@
-📌 Descrição do Projeto
+Descrição do Projeto
 
 Este projeto consiste em uma aplicação web simples de Lista de Tarefas, desenvolvida utilizando HTML, CSS e JavaScript puro.
 
-Ele representa a primeira parte da AV1 e implementa um sistema básico de CRUD (Create + Read), permitindo que o usuário adicione tarefas e visualize a lista dinamicamente na tela.
+A aplicação implementa um sistema básico de CRUD (Create + Read), permitindo que o usuário adicione tarefas e visualize a lista dinamicamente na tela.
 
-O projeto foi desenvolvido com foco em:
+O desenvolvimento foi realizado com foco em:
 
 Organização correta de pastas e arquivos
 
@@ -16,25 +16,24 @@ Uso de eventos
 
 Validação simples utilizando trim()
 
-🚀 Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 HTML5
 
-CSS3
+CSS
 
 JavaScript (Vanilla JS)
 
-📂 Estrutura do Projeto
+Estrutura do Projeto
+
 lista-tarefas/
-│
 ├── index.html
-│
 ├── css/
-│   └── style.css
-│
+│ └── style.css
 └── js/
-    └── script.js
-✅ Funcionalidades Implementadas (Parte 1 – AV1)
+└── script.js
+
+Funcionalidades Implementadas
 
 Adicionar novas tarefas (Create)
 
@@ -54,21 +53,7 @@ Exibição de mensagem de erro diretamente no DOM (sem uso de alert)
 
 Atualização automática da interface após adicionar tarefa
 
-🎨 Design
-
-Cor principal: bege
-
-Cor secundária: vinho (botões e destaques)
-
-Layout centralizado
-
-Container com sombra leve e bordas arredondadas
-
-Interface limpa, moderna e organizada
-
-🔜 Próximos Passos
-
-O projeto será evoluído para incluir:
+Próximas Implementações
 
 Atualização de tarefas
 
@@ -76,6 +61,6 @@ Exclusão de tarefas
 
 Implementação completa do CRUD
 
-👨‍💻 Autor
+Autor
 
 Tiago Henrique Barbosa
