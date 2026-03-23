@@ -1,43 +1,45 @@
-Descrição do Projeto
+# Descrição do Projeto
 
 Este projeto consiste em uma aplicação web simples de Lista de Tarefas, desenvolvida utilizando HTML, CSS e JavaScript puro. A aplicação implementa um sistema básico de CRUD (Create + Read), permitindo que o usuário adicione tarefas e visualize a lista dinamicamente na tela. O desenvolvimento foi realizado com foco em organização correta de pastas e arquivos, uso de JavaScript essencial, manipulação básica do DOM, uso de eventos e validação simples utilizando trim().
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-HTML5
+- HTML5
+- CSS
+- JavaScript (Vanilla JS)
 
-CSS
+## Estrutura do Projeto
 
-JavaScript (Vanilla JS)
-
-
-Estrutura do Projeto
+```
 lista-tarefas/
 ├── index.html
 ├── css/style.css
 └── js/script.js
+```
 
+## Funcionalidades Implementadas
 
-Funcionalidades Implementadas:
+- Adicionar novas tarefas (Create)
+- Exibir tarefas dinamicamente na tela (Read)
+- Armazenamento das tarefas em um array JavaScript
+- Manipulação do DOM com querySelector()
+- Uso de addEventListener()
+- Evento submit com preventDefault()
+- Validação para impedir tarefas vazias usando trim()
+- Exibição de mensagem de erro diretamente no DOM
+- Atualização automática da interface após adicionar tarefa
 
-Adicionar novas tarefas (Create)
-Exibir tarefas dinamicamente na tela (Read)
-Armazenamento das tarefas em um array JavaScript
-Manipulação do DOM com querySelector()
-Uso de addEventListener()
-Evento submit com preventDefault()
-Validação para impedir tarefas vazias usando trim()
-Exibição de mensagem de erro diretamente no DOM
-Atualização automática da interface após adicionar tarefa
+## Próximas Implementações
 
+- Atualização de tarefas
+- Exclusão de tarefas
+- Implementação completa do CRUD
 
-Próximas Implementações:
+## Como Executar
 
-Atualização de tarefas
-Exclusão de tarefas
-Implementação completa do CRUD
+1. Clone o repositório: `git clone https://github.com/tiago160909/trabalho-henrique-tiago2A-ti.git`
+2. Abra o arquivo `index.html` em um navegador web.
 
-
-Autor:
+## Autor
 
 Tiago Henrique Barbosa
